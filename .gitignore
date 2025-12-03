@@ -1,5 +1,9 @@
-# Obsidian local settings, workspace, caches (keep only plugin manifests)
+# Obsidian local settings, UI layout, workspace, caches
 .obsidian/
+
+# Optional: if you want to *keep plugin settings* but not UI/layout:
+# .obsidian/workspace
+# .obsidian/cache
 
 # Mac metadata
 .DS_Store

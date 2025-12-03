@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scratch.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "scratch"
+              "title": "Welcome"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scratch.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for scratch"
+              "title": "Backlinks for Welcome"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scratch.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from scratch"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scratch.md",
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of scratch"
+              "title": "Outline of Welcome"
             }
           }
         ]
@@ -172,8 +172,13 @@
   },
   "active": "230a2cfee52f19ba",
   "lastOpenFiles": [
-    "Private Transfers/Phase A/02_Patterns/Burn-and-Mint Privacy.md",
+    "igno.txt",
     "scratch.md",
+    "workspace",
+    "Obsidian",
+    "Ignore",
+    "#",
+    "Private Transfers/Phase A/02_Patterns/Burn-and-Mint Privacy.md",
     "Private Transfers/Phase A/05_Project_Lists/Shielded_Pools.md",
     "Private Transfers/Phase A/05_Project_Lists/Burn_and_Mint.md",
     "Private Transfers/Phase A/05_Project_Lists/Permissioned_Privacy.md",
@@ -199,15 +204,10 @@
     "Private Transfers/Phase A/03_Problems/02 Fragmented Anonymity Sets.md",
     "Private Transfers/Phase A/04_Metrics/Trust Assumptions.md",
     "Private Transfers/Phase A/04_Metrics/Selective Disclosure.md",
-    "Private Transfers/Phase A/04_Metrics/UX Complexity.md",
     "Private Transfers/Phase A/03_Problems/03_Problems",
     "Private Transfers/Phase A/01_Report/Pasted image 20251203103357.png",
     "Private Transfers/Phase A",
     "Private Transfers",
-    "Private Transfers/Phase A/98_Attachments",
-    "Private Transfers/Phase A/06_Appendices",
-    "Private Transfers/Phase A/04_Metrics",
-    "Private Transfers/Phase A/03_Problems",
-    "Private Transfers/Phase A/02_Patterns"
+    "Private Transfers/Phase A/98_Attachments"
   ]
 }
