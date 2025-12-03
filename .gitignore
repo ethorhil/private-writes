@@ -1,0 +1,6 @@
+# Obsidian local settings, workspace, caches (keep only plugin manifests)
+.obsidian/
+
+# Mac metadata
+.DS_Store
+._*
