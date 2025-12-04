@@ -46,7 +46,7 @@ Key clarifications:
     - Systems differ in whether balances and flows can be selectively revealed to auditors, compliance teams, counterparties, or regulators.
     - We distinguish between **no SD**, **ad-hoc SD**, **protocol-level SD**, and **rich-policy SD** (e.g., structured proofs-of-innocence).
 
-Crucially, **“Permissioned Privacy” as a pattern** refers to deployments where **controlled membership and compliance-friendly disclosure are the primary design drivers**. Mechanistically, similar permissioning and SD layers can be stacked on top of other patterns (e.g., Shielded Pools or Validium) **without changing the underlying pattern classification**.
+Crucially, **“[[Permissioned Privacy]]” as a pattern** refers to deployments where **controlled membership and compliance-friendly disclosure are the primary design drivers**. Mechanistically, similar permissioning and SD layers can be stacked on top of other patterns (e.g., Shielded Pools or Validium) **without changing the underlying pattern classification**.
 
 We offers several rules of thumb:
 - A **KYC-restricted shielded pool** is classified as **L1 Shielded Pool** with a **permissioned attribute**, _not_ as Permissioned Privacy.

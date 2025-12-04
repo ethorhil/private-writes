@@ -19,18 +19,15 @@ Higher = better across all columns.
 
 ### **2. Master Comparison Table**
 
-|Pattern|Privacy|L1 Gas / Transfer|TPS Potential|Programmability / Flexibility|UX Complexity|Readiness|Selective Disclosure|Trust Assumptions|
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|**L1 Overlay – Stealth / OTR**|2|3|3|2|3|3|4|3|
-|**L1 Shielded Pools**|5|1|2|3|2|3|3|3|
-|**Burn-and-Mint Privacy**|5|1|2|2|3|2|1|4|
-|**Permissioned Privacy**|2|3|2|3|4|4|5|2|
-|**Private Rollups (Full DA)**|5|4|4|4|2|3|4|4|
-|**Private Plasma**|5|5|5|2|2|2|1|3|
-|**Private Validium**|4|5|5|4|4|4|4|1|
-
--  todo review
-    
+| Pattern                        | Privacy | L1 Gas / Transfer | TPS Potential | Programmability / Flexibility | UX Complexity | Readiness | Selective Disclosure | Trust Assumptions |
+| ------------------------------ | :-----: | :---------------: | :-----------: | :---------------------------: | :-----------: | :-------: | :------------------: | :---------------: |
+| **L1 Overlay – Stealth / OTR** |    2    |         3         |       3       |               2               |       3       |     3     |          4           |         3         |
+| **L1 Shielded Pools**          |    5    |         1         |       2       |               3               |       2       |     3     |          3           |         3         |
+| **Burn-and-Mint Privacy**      |    5    |         1         |       2       |               2               |       3       |     2     |          1           |         4         |
+| **Permissioned Privacy**       |    2    |         3         |       2       |               3               |       4       |     4     |          5           |         2         |
+| **Private Rollups (Full DA)**  |    5    |         4         |       4       |               4               |       2       |     3     |          4           |         4         |
+| **Private Plasma**             |    5    |         5         |       5       |               2               |       2       |     2     |          1           |         3         |
+| **Private Validium**           |    4    |         5         |       5       |               4               |       4       |     4     |          4           |         1         |
 
 ---
 

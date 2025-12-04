@@ -27,55 +27,38 @@ Each card provides:
 
 **What it contains**
 
-Appendix B contains the full outputs of **WS1 — Private Transfers Comparison Table**, including:
+Appendix B contains the full **Private Transfers Comparison Table**, including:
 
 - The **canonical master comparison table** with frozen scores for the seven patterns across:  
     _Privacy, L1 Gas / Transfer, TPS Potential, Programmability / Flexibility, UX Complexity, Readiness, Selective Disclosure, Trust Assumptions_
-    
 - The **maturity-weighted scoring methodology**, including the 1–4 maturity weights and the 1–5 rubric normalization rules
     
 - A **score-justification appendix** for each pattern:
-    
     - Decimal pre-score and rounded score
-        
     - 1–2 sentence justification per metric
-        
     - Source references and notes on data quality or uncertainty
-        
 - A short **inconsistencies & gaps report** describing metric coupling, heterogeneity inside patterns, gas data gaps, and roadmap uncertainty
-    
 
 **Who it is for**
 
 - Readers who need **numerical detail** behind the high-level trade-off narrative in **Section 5**
-    
 - Quantitative reviewers verifying that scores are traceable and derived from documented deployments
-    
 - Anyone using Phase A as a baseline for **future re-scoring or benchmarking**, while keeping the Phase A scores themselves frozen
 
 ## [[Appendix C — Global Problem Catalog & Radar]]
 
 **What it contains**
 
-Appendix C hosts the detailed artifacts from **WS3 — Global Problem Radar for Private Transfers**, including:
+Appendix C hosts the detailed artifacts for **Global Problem Radar for Private Transfers**, including:
 
 - The full **cross-pattern problem catalog** of 19 problems, with:
-    
     - Problem title and description
-        
     - Thematic categories (Privacy & Leak Vectors, Scalability & DA, Trust & Governance, UX & DevEx, Programmability & Expressiveness, Interoperability & Composability, Compliance & Selective Disclosure)
-        
 - The underlying **Impact, Tractability, and Crowdedness annotations** used to build the problem radar (where available)
-    
 - Any additional notes or examples illustrating how specific problems manifest across different patterns (e.g., DA issues in rollups vs Validium vs Plasma, composability issues in DeFi)
-    
 
 **Who it is for**
 
 - Researchers and product leads exploring **which structural problems affect multiple patterns**
-    
-- Teams preparing for **Phase B** discussions on problem prioritization, needing an auditable reference for the problem set itself
-    
 - Contributors who want to ensure that **new workstreams** map cleanly onto existing problem definitions instead of inventing overlapping terminology
-    
 ---

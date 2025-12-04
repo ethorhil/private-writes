@@ -9,8 +9,8 @@ This vault holds my long‑term research on on‑chain privacy systems.
     (taxonomy, seven patterns, comparison table, problem radar, final report)
   - `phase-b/` — Phase B *problem selection & experiments* (to be added)
   - `phase-c/` — Phase C *Execution planning* (to be added)
-
 - `private-defi/` — Private DeFi + composability work (planned)
+- `private-governance/` — Private Governance (planned)
 
 ## How to Use This Vault
 

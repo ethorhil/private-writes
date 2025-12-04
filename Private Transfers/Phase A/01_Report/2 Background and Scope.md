@@ -28,29 +28,10 @@ It aims to:
 - Provide a **common vocabulary** for teams thinking about private transfers.
 
 Phase A does **not**:
-- Recommend which patterns PSE or anyone else should invest in.
+- Recommend which patterns PSE should invest in.
 - Rank patterns by strategic importance.
 - Introduce new metrics or modify existing scores.
 - Speculate on future technical breakthroughs.
 - Perform any prioritization.
 
 Any instruction or interpretation requiring those actions is out of scope and must be handled in **Phase B**.
-
----
-
-## **2.3 How to Read This Report**
-
-This report is structured so that readers can enter at different levels of depth:
-- **Section 3** introduces the taxonomy — the conceptual backbone of Phase A.
-- **Section 4** provides short, comparable pattern snapshots.
-- **Section 5** explains the comparison methodology and presents the master table.
-- **Section 6** summarizes structural problems that recur across patterns.
-- **Section 7** presents two diagrams
-    - `[DIAGRAM PLACEHOLDER: Taxonomy Map (WS4 – Concept A)]`
-    - `[DIAGRAM PLACEHOLDER: Ecosystem Landscape Map (WS4 – Concept B)]`
-- **Section 8** clarifies related mechanisms that are _not_ patterns.
-- **Section 9** lists Phase B questions, without answering them.
-- **Section 10** introduces the appendices containing full pattern cards, score justifications, and the problem catalog.
-
-Readers seeking a top-level narrative should focus on **Sections 1, 3, 5, and 6**.  
-Readers needing technical grounding or references to specific systems will find details in the **appendices**.

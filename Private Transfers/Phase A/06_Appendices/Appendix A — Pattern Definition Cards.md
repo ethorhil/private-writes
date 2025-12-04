@@ -359,9 +359,3 @@ Mark as **open** or **permissioned**. This is an attribute, not a pattern.
 
 Mark SD level: **none / ad-hoc / protocol-level / rich-policy**.
 
-#### **FAQ**
-
-**PP or VV?** → VV + permissioned attribute  
-**KYC’d shielded pool?** → SP + permissioned attribute  
-**Channels a new pattern?** → No, PL/VV-like transports  
-**FHE-rollup?** → Classify by DA: full DA → PR, off-chain DA → VV

@@ -1,7 +1,7 @@
 
 ### **Purpose & Scope (Phase A)**
 
-Phase A of the **Private Transfers** track is a **mapping and diagnosis exercise**. Its goal is to describe the main ways users can move value privately on Ethereum and adjacent systems, normalize them into seven concrete **private-transfer patterns**, and compare those patterns using a shared set of metrics:
+Phase A of the **Private Transfers** track is a **mapping and diagnosis exercise**. Its goal is to describe the main ways users can move value privately on Ethereum and its L2s, normalize them into seven concrete **private-transfer patterns**, and compare those patterns using a shared set of metrics:
 
 - [[Privacy]]
 - [[L1 Gas per Transfer]]
@@ -14,7 +14,7 @@ Phase A of the **Private Transfers** track is a **mapping and diagnosis exercise
 
 Phase A also aggregates recurring system-level challenges into a consolidated **[[6 Cross-Pattern Problems|cross-pattern problem radar]]**.
 
-Equally important is what Phase A **does not** do. It does **not** select “winning” designs, recommend where PSE should invest, or propose strategy. All pattern scores are **descriptive rather than prescriptive** — they reflect the current, maturity-weighted shape of real deployments rather than theoretical maxima.  
+Equally important is what Phase A **does not** do. It does **not** select “winning” designs, recommend where PSE should invest ressources, or propose strategy. All pattern scores are **descriptive rather than prescriptive** — they reflect the current, maturity-weighted shape of real deployments rather than theoretical maxima.  
 The outcome is a **shared factual baseline** for understanding how private transfers work today, why they matter for user protection and compliant on-chain finance, and which structural friction points consistently appear across mechanisms.
 
 ---
@@ -66,7 +66,7 @@ Throughput aligns with where data lives:
 - L1-native designs cap out at Ethereum throughput.
 - Rollups batch and compress, improving TPS.
 - Plasma and Validium achieve the highest TPS by moving data off-chain — at the cost of increased trust or exit risk.
-    
+
 ### **[[Programmability & Flexibility|Programmability vs Simplicity]]**
 
 Overlays, Burn-and-Mint, and Plasma offer simplicity but limited contract expressiveness. Rollups and Validium unlock rich private application logic with greater complexity.
@@ -79,7 +79,7 @@ Stronger privacy often comes with:
 - relayer flows
 - multiple key types
 - exit responsibilities (Plasma/Validium)
-    
+
 Permissioned systems and some Validium deployments provide smoother UX after onboarding.
 
 ### **[[Readiness]]**
@@ -111,7 +111,7 @@ General private compute (FHE, iO), TEEs/MPC execution, ordering-privacy systems,
 
 Scores are shaped by heterogeneous deployments, inconsistent data, DA assumptions, and emerging roadmaps. These are expected limitations for a first-pass ecosystem map.
 
-Phase B (not part of this report) will address questions such as:
+Phase B will address questions such as:
 
 - Which structural problems are most important to address?
 - How do different patterns fit PSE’s capabilities and priorities?

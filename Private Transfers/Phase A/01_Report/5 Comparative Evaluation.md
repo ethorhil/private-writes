@@ -1,7 +1,7 @@
 
 ## 5.1 Metrics and Scoring Methodology
 
-The comparative evaluation in Phase A is based on a **maturity‑weighted, rubric‑normalized scoring framework** (see 10.2).
+The comparative evaluation in Phase A is based on a **maturity‑weighted, rubric‑normalized scoring framework** [[Appendix B — Comparison Table & Score Justifications]].
 
 ### 5.1.1 Maturity-Weighted Pattern Scores
 
@@ -57,11 +57,20 @@ Each pattern’s values on these metrics are fixed and are **not re-scored** in 
 
 ## 5.2 Master Comparison Table
 
-We define a **canonical master table** that scores the seven patterns across all metrics using the methodology above. That table is the quantitative backbone for Phase A and is referenced here.
-
-The full, high-resolution version of this table (including decimal pre-scores and short justifications per cell) appears in:
+We define a **canonical master table** that scores the seven patterns across all metrics using the methodology above. That table is the quantitative backbone for Phase A.
 
 [[Appendix B — Comparison Table & Score Justifications]]
+
+| Pattern                        | Privacy | L1 Gas / Transfer | TPS Potential | Programmability / Flexibility | UX Complexity | Readiness | Selective Disclosure | Trust Assumptions |
+| ------------------------------ | :-----: | :---------------: | :-----------: | :---------------------------: | :-----------: | :-------: | :------------------: | :---------------: |
+| **L1 Overlay – Stealth / OTR** |    2    |         3         |       3       |               2               |       3       |     3     |          4           |         3         |
+| **L1 Shielded Pools**          |    5    |         1         |       2       |               3               |       2       |     3     |          3           |         3         |
+| **Burn-and-Mint Privacy**      |    5    |         1         |       2       |               2               |       3       |     2     |          1           |         4         |
+| **Permissioned Privacy**       |    2    |         3         |       2       |               3               |       4       |     4     |          5           |         2         |
+| **Private Rollups (Full DA)**  |    5    |         4         |       4       |               4               |       2       |     3     |          4           |         4         |
+| **Private Plasma**             |    5    |         5         |       5       |               2               |       2       |     2     |          1           |         3         |
+| **Private Validium**           |    4    |         5         |       5       |               4               |       4       |     4     |          4           |         1         |
+
 
 ---
 
@@ -103,9 +112,8 @@ However, programmability comes with **higher complexity** for both implementers 
 
 Patterns with stronger privacy and more complex DA models tend to have lower UX scores:
 - **Shielded Pools, Rollups, Plasma, and Validium** often require **multi-key management**, **note handling**, **use of relayers**, or **exit‑related user responsibilities**.
-    
 - **Permissioned Privacy** and some **Validium deployments** can provide smoother UX once onboarding is complete, since day-to-day transfers may resemble standard token transfers, albeit within a gated environment.
-    
+
 
 The table and justifications emphasize that **UX complexity is tightly coupled to DA and exit semantics**—especially in Plasma and Validium, where users must understand safety assumptions around data withholding and exits.
 

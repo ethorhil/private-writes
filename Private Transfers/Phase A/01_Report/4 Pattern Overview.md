@@ -69,4 +69,4 @@ These snapshots are intended as **navigational summaries**, not exhaustive speci
 - Highlight **characteristic privacy, cost, UX, and trust trade-offs**.
 - Provide a bridge between the high-level narrative (Section 1–3) and the quantitative comparison.
 
-In **Section 5**, these same patterns are evaluated using a maturity‑weighted scoring methodology to provide a structured comparative view.
+In section [[5 Comparative Evaluation]], these same patterns are evaluated using a maturity‑weighted scoring methodology to provide a structured comparative view.
