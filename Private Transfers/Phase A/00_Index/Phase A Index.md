@@ -1,7 +1,7 @@
 # Phase A – Private Transfers Landscape
 
 ## Report 
-- [[1 Executive Summary]]
+- [[1 Executive Summary]] (start here)
 - [[2 Background and Scope]]
 - [[3 Taxonomy]]
 - [[4 Pattern Overview]]
