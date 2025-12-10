@@ -1,0 +1,142 @@
+
+## 5.1 Metrics and Scoring Methodology
+
+The comparative evaluation in Phase A is conducted in detail here [[Appendix B — Comparison Table & Score Justifications]].
+
+### 5.1.1 Maturity-Weighted Pattern Scores
+
+Each pattern’s score is derived from the real projects that instantiate it, weighted by their **deployment maturity**. Concretely, we define pattern scores as:
+
+> A maturity-weighted average of project-level scores within the pattern,  
+> where each project is weighted by how battle-tested its deployment is.
+
+Maturity weights follow a 1–4 scale:
+- **1** – Prototype / conceptual / devnet
+- **2** – Public testnet / early pilot
+- **3** – Mainnet with moderate usage
+- **4** – Battle-tested, multi‑year mainnet deployment
+
+This ensures that **long‑running, widely used systems** have more influence on the pattern’s profile than proofs‑of‑concept or early pilots.
+
+We also set a clear interpretation rule:
+
+> **Pattern scores describe the current, maturity‑weighted shape of the pattern as deployed today.**  
+> They are neither theoretical upper bounds nor minimum baselines.
+
+### 5.1.2 Metric Rubric (1–5 Scale)
+
+All metrics use a **1–5 rubric**, normalized across patterns:
+- Higher is always **better** on each column.
+- Thresholds are **shared across patterns**, not tuned per pattern.
+
+The core metrics are:
+
+1. **Privacy**  
+   ![[Privacy]]
+
+2. **L1 Gas per Transfer**  
+   ![[L1 Gas per Transfer]]
+
+3. **TPS Potential**  
+   ![[TPS Potential]]
+
+4. **Programmability & Flexibility**  
+   ![[Programmability & Flexibility]]
+
+5. **UX Complexity**  
+   ![[UX Complexity]]
+
+6. **Readiness**  
+   ![[Readiness]]
+
+7. **Selective Disclosure**  
+   ![[Selective Disclosure]]
+
+8. **Trust Assumptions**  
+   ![[Trust Assumptions]]
+
+Other axes (e.g., membership, visibility) are tracked qualitatively as attributes in the taxonomy and pattern descriptions rather than with standalone numeric columns in the table.
+
+---
+
+## 5.2 Master Comparison Table
+
+We define a **canonical master table** that scores the seven patterns across all metrics using the methodology above. That table is the quantitative backbone for Phase A.
+
+[[Appendix B — Comparison Table & Score Justifications]]
+
+| Pattern                        | Privacy | L1 Gas / Transfer | TPS Potential | Programmability / Flexibility | UX Complexity | Readiness | Selective Disclosure | Trust Assumptions |
+| ------------------------------ | :-----: | :---------------: | :-----------: | :---------------------------: | :-----------: | :-------: | :------------------: | :---------------: |
+| **L1 Overlay – Stealth / OTR** |    2    |         3         |       3       |               2               |       3       |     3     |          4           |         3         |
+| **L1 Shielded Pools**          |    5    |         1         |       2       |               3               |       2       |     3     |          3           |         3         |
+| **Burn-and-Mint Privacy**      |    5    |         1         |       2       |               2               |       3       |     2     |          1           |         4         |
+| **Permissioned Privacy**       |    2    |         3         |       2       |               3               |       4       |     4     |          5           |         2         |
+| **Private Rollups (Full DA)**  |    5    |         4         |       4       |               4               |       2       |     3     |          4           |         4         |
+| **Private Plasma**             |    5    |         5         |       5       |               2               |       2       |     2     |          1           |         3         |
+| **Private Validium**           |    4    |         5         |       5       |               4               |       4       |     4     |          4           |         1         |
+
+
+---
+
+## 5.3 Key Trade-Offs and Observations
+
+The scores and justifications reveal several **recurring trade‑off curves** across the seven patterns.
+
+### 5.3.1 Privacy vs L1 Cost
+
+Patterns that deliver **stronger on-chain privacy** generally incur **higher L1 costs**:
+
+- **L1 Shielded Pools, Burn-and-Mint, Private Rollups, Private Plasma, and Private Validium** cluster toward **strong privacy**, but pay for this with **expensive proofs, higher calldata, or DA infrastructure costs**.
+- **L1 Overlays** trade off some privacy strength (e.g., amounts and senders remain public) for **much lower incremental gas and simpler integration**.
+
+This is a core structural tension: **strong privacy at the state level tends to be gas- and bandwidth-intensive**, especially on L1.
+
+### 5.3.2 Throughput vs DA Model vs Trust
+
+Throughput potential tracks **where data lives and who holds it**:
+
+- **L1-native systems** (Overlays, Shielded Pools, Burn-and-Mint) are bounded by Ethereum’s base throughput; they cannot scale beyond L1 without moving data off-chain.    
+- **Private Rollups (Full DA)** improve **TPS per unit cost** via batching and proof aggregation, while keeping full data on L1 and preserving strong trust minimization.
+- **Private Plasma** and **Private Validium** can reach the **highest throughput scores** by pushing most data off-chain—but this introduces **exit fragility and DA-committee trust** respectively.
+
+As a result, the table shows a clear pattern:
+
+> To move along the **throughput frontier**, systems generally pay in **either L1 cost** (Rollups) or **trust and exit safety** (Plasma, Validium).
+
+### 5.3.3 Programmability vs Simplicity
+
+We distinguish between patterns built for **simple payment-like flows** and those designed for **rich, private smart-contract logic**:
+
+- **L1 Overlays, Burn-and-Mint, and many Plasma variants** score lower on programmability: they are optimized for transfers and basic workflows rather than complex private DeFi.
+- **Private Rollups and Private Validium** score higher, reflecting deployments that support private exchanges, AMMs, or general-purpose private VMs.
+
+However, programmability comes with **higher complexity** for both implementers and users (more elaborate circuits, tooling, and UX responsibilities).
+
+### 5.3.4 UX Friction and Operational Risk
+
+Patterns with stronger privacy and more complex DA models tend to have lower UX scores:
+- **Shielded Pools, Rollups, Plasma, and Validium** often require **multi-key management**, **note handling**, **use of relayers**, or **exit‑related user responsibilities**.
+- **Permissioned Privacy** and some **Validium deployments** can provide smoother UX once onboarding is complete, since day-to-day transfers may resemble standard token transfers, albeit within a gated environment.
+
+
+The table and justifications emphasize that **UX complexity is tightly coupled to DA and exit semantics**—especially in Plasma and Validium, where users must understand safety assumptions around data withholding and exits.
+
+### 5.3.5 Readiness and Ecosystem Maturity
+
+Readiness scores reflect **where the ecosystem is today**, not where it might go:
+
+- **L1 Overlays, L1 Shielded Pools, and many Permissioned Privacy deployments** enjoy relatively higher readiness: they have **live mainnets, real users, and production integrations**.
+- **Burn-and-Mint** designs and **Private Plasma** are generally earlier-stage, with fewer mature deployments.
+- **Private Validium** benefits from **StarkEx-style systems and early application chains**, raising its readiness relative to its novelty as a privacy pattern.
+
+This underscores that **pattern attractiveness in theory** may differ from **pattern maturity in practice** at the time of Phase A.
+
+### 5.3.6 Selective Disclosure and Compliance Integration
+
+Selective disclosure scores vary significantly by pattern family and deployment style:
+
+- Some **Shielded Pools** offer little or no SD, while others introduce **viewing keys or association-set proofs** to support proofs-of-innocence.
+- **Permissioned Privacy** systems and certain **Validium deployments** are often designed around **compliance and auditability**, giving them relatively strong SD scores.
+- **Overlays and simple Burn-and-Mint systems** can support ad-hoc SD but rarely provide rich policy frameworks out of the box.
+
+Across patterns, we highlight a structural gap: **mature, standardized SD and compliance tooling is still rare**, even where privacy and readiness are high.
