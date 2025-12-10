@@ -11,8 +11,6 @@ At a glance, the diagram lets the reader:
 - See all **seven patterns** at once.
 - Understand how they relate in terms of **state model, DA model, and trust assumptions**.
 
-The taxonomy diagram is intentionally **non-prescriptive**: it does not rank patterns or indicate which are “better”; it simply fixes a **shared map** of the design space used by all other sections (pattern cards, comparison table, problem radar).
-
 ![[Pasted image 20251203103357.png]]
 
 ---

@@ -15,18 +15,22 @@ These problems are **explicitly cross-pattern**: they show up in different forms
 
 ### 6.2.1 Privacy Leakage & Anonymity
 
+^3cb481
+
 This cluster covers how privacy can degrade **beyond the cryptography of the core protocol**:
 
 - [[01 Transaction Graph Leakage]]
 - [[02 Fragmented Anonymity Sets]]
 - [[11 Private Execution Leakage in DeFi Primitives]]
-- [[13 Cross-Domain Privacy Leakage in Bridging]]
+- [[13 Cross-Domain Privacy Leakage in Bridging]] ^fcf819
 - [[16 Identity Binding Without Linkability]]
 - [[19 Network-Layer Metadata Leakage]]
 
 Even when sender, receiver, and amount are cryptographically shielded, **timing, routing, liquidity fragmentation, and network behavior** can reintroduce linkability. The catalog treats this as a structural issue: solving privacy at the state layer alone is insufficient.
 
 ### 6.2.2 Data Availability, Scalability & Exits
+
+^645ab1
 
 This cluster focuses on **data placement and safety under failure**:
 - [[03 High L1 Costs for Private Verification and Data Availability]]
@@ -42,6 +46,8 @@ The catalog identifies this as one of the central structural trade-offs in the p
 
 ### 6.2.3 Governance & Operational Risk
 
+^c14e56
+
 We group issues around **control over upgrades, operations, and incentives**:
 - [[07 Upgrade and Governance Risks for Private Circuits]] 
 - [[17 Monitoring, Observability, and Debugging Blindness]]
@@ -50,6 +56,8 @@ We group issues around **control over upgrades, operations, and incentives**:
 Because much of the system logic is opaque, **circuit upgrades, operator behavior, and infra incentives** carry outsized systemic risk. Lack of safe observability makes these risks harder to detect and manage.
 
 ### 6.2.4 UX & Developer Experience
+
+^be95db
 
 This cluster addresses the **human-facing and builder-facing friction**:
 - [[08 Multi-Key Management Complexity]]
@@ -61,6 +69,8 @@ Many patterns impose **non-standard mental models and responsibilities** on user
 
 ### 6.2.5 Compliance & Selective Disclosure
 
+^c4ed15
+
 This cluster captures the gap between **privacy and real-world regulatory requirements**:
 - [[14 Missing Selective-Disclosure Standards]]
 - [[15 Immature Privacy-Preserving Compliance]]
@@ -69,6 +79,8 @@ This cluster captures the gap between **privacy and real-world regulatory requir
 Across patterns, there is no widely adopted way to express **proofs-of-innocence, audit trails, or role-based disclosure policies**. Permissioned privacy deployments partially address this for specific use cases, but the catalog treats the broader absence of shared standards as a cross-ecosystem problem.
 
 ### 6.2.6 Composability & Interoperability
+
+^e74e59
 
 Finally, section 10.3 identifies a cluster around **composing private systems with each other and with public DeFi**:
 

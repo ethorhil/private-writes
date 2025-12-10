@@ -10,7 +10,7 @@ Phase A maps the current ecosystem of private-transfer mechanisms, builds a simp
     Go to [[6 Cross-Pattern Problems]] and then the detailed problem list in the **Problems** section below. For more structure, use [[Appendix C — Global Problem Catalog & Radar]].
     
 - **Looking for ecosystem projects?**  
-    Start at [[7 Ecosystem and Deployment Landscape (Visual Maps)]] and follow links into project notes in the `05_Projects/` folder.
+    Start at [[7 Ecosystem and Deployment Landscape]] and follow links into project notes in the `05_Projects/` folder.
     
 - **Want to compare approaches?**  
     See [[5 Comparative Evaluation]] for the main comparison, then dive into [[Appendix B — Comparison Table & Score Justifications]] for detailed scores and explanations.
@@ -31,7 +31,7 @@ For a high-level overview of all phases of the work, see [[Phases of the Private
 - [[4 Pattern Overview]]
 - [[5 Comparative Evaluation]]
 - [[6 Cross-Pattern Problems]]
-- [[7 Ecosystem and Deployment Landscape (Visual Maps)]]
+- [[7 Ecosystem and Deployment Landscape]]
 - [[8 Scope Boundaries, Related Mechanisms, and Limitations]]
 - [[9 Out-of-Scope for Phase A & Inputs to Phase B]]
 - [[10 Appendices Overview]]
@@ -103,7 +103,7 @@ These are the reference points for scores and trade-offs in [[5 Comparative Eval
 
 Use these materials to understand concrete deployments and ecosystem coverage:
 
-- [[7 Ecosystem and Deployment Landscape (Visual Maps)]] – visual overview of key projects and how they map to the seven patterns.
+- [[7 Ecosystem and Deployment Landscape]] – visual overview of key projects and how they map to the seven patterns.
 - Follow links from the visual maps into individual project notes in the `05_Projects/` folder for deeper dives.
 
 ---

@@ -119,7 +119,7 @@ These structural issues cut across mechanisms and shape the ecosystem landscape.
 
 ## Ecosystem & deployment landscape
 
-From [[7 Ecosystem and Deployment Landscape (Visual Maps)]] and the readiness scores:
+From [[7 Ecosystem and Deployment Landscape]] and the readiness scores:
 
 - The **taxonomy diagram** shows the seven patterns organized by **state model + DA/trust model**, with membership and SD as annotations.
 - The **project landscape map** overlays **real deployments** into these pattern boxes and encodes their **maturity** (prototype → testnet → mainnet).
