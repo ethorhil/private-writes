@@ -19,7 +19,7 @@ Phase A maps the current ecosystem of private-transfer mechanisms, builds a simp
     Use [[Appendix A — Pattern Definition Cards]] for complete pattern write-ups.
     
 
-For a high-level overview of all phases of the work, see [[Phases of the Private Transfers track]].
+For a high-level overview of all phases of the work, see [[Phases of the Private Writes Track]].
 
 ---
 

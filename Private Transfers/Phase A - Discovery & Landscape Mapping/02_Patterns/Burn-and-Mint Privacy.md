@@ -1,1 +1,0 @@
-![[Appendix A — Pattern Definition Cards#< 3. **Burn-and-Mint Privacy**]]
