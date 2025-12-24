@@ -1,0 +1,31 @@
+.site-sidebar {
+  width: 56px;
+  transition: width 160ms ease;
+  overflow: hidden;
+}
+
+.site-sidebar .nav-header-title,
+.site-sidebar .nav-file-title {
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.site-sidebar:hover {
+  width: 280px;
+}
+
+.site-sidebar:hover .nav-header-title,
+.site-sidebar:hover .nav-file-title {
+  opacity: 1;
+}
+
+.site-body,
+.site-content {
+  margin-left: 56px;
+  transition: margin-left 160ms ease;
+}
+
+.site-sidebar:hover ~ .site-content,
+.site-sidebar:hover ~ .site-body {
+  margin-left: 280px;
+}
