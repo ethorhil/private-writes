@@ -74,7 +74,7 @@ We define a **canonical master table** that scores the seven patterns across all
 | **Private Rollups (Full DA)**  |    5    |         4         |       4       |               4               |       2       |     3     |          4           |         4         |
 | **Private Plasma**             |    5    |         5         |       5       |               2               |       2       |     2     |          1           |         3         |
 | **Private Validium**           |    4    |         5         |       5       |               4               |       4       |     4     |          4           |         1         |
-
+^mct
 
 ---
 
